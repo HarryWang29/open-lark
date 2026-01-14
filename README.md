@@ -4,6 +4,12 @@
 [![Documentation](https://docs.rs/open-lark/badge.svg)](https://docs.rs/open-lark)
 ![Discord Shield](https://discord.com/api/guilds/1319490473060073532/widget.png?style=shield)
 
+> fork自 [open-lark](https://github.com/foxzool/open-lark)
+> 
+> 主要解决 `.git` 目录过大问题
+> 
+> 利用ai导出WebSocket client，目前可以简单使用，无法保证api覆盖
+
 # 飞书开放平台非官方SDK - 企业级高覆盖率Rust实现
 
 > ✅ **架构迁移完成**
