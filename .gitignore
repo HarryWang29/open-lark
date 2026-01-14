@@ -1,0 +1,143 @@
+# ============================================================================
+# Core Rust and Build Files
+# ============================================================================
+
+# Rust build artifacts
+/target/
+crates/*/target/
+examples/target/
+tests/target/
+tools/*/target/
+
+# Rust lock file (keep workspace lock, ignore individual crates)
+Cargo.lock
+examples/Cargo.lock
+
+# Rust backup files
+**/*.rs.bk
+*.rs.bk
+
+# ============================================================================
+# Environment and Configuration
+# ============================================================================
+
+# Environment variables (never commit)
+.env
+.env.local
+.env.production
+
+# Local configurations
+/.config/
+/.test-config.toml
+.claude/settings.local.json
+
+# ============================================================================
+# Development and Analysis Artifacts
+# ============================================================================
+
+# Code coverage files
+*.lcov
+coverage.lcov
+lcov.info
+coverage-html/
+
+# Build and analysis outputs
+/reports/
+/results/
+api_check_output.txt
+*.changeset
+
+# Temporary development files
+/tmp/
+/temp/
+
+# POC and experimental files
+*_poc.toml
+poc_*.toml
+*_poc.rs
+poc_service_registry
+
+# ============================================================================
+# Python Development (if needed)
+# ============================================================================
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ============================================================================
+# System and Editor Files
+# ============================================================================
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+ehthumbs.db
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ============================================================================
+# Claude Code Assistant and AI Analysis
+# ============================================================================
+
+# AI assistant work files and memories
+.claude/memories/
+.claude/plan/
+.claude/index.json
+.claude/commands/
+
+# Temporary command and analysis files
+zen_precommit.changeset
+zen_precommit_validation_report.md
+zen_precommit.*.changeset
+*_validation_report.md
+*_analysis_report.md
+feature_architecture_analysis.md
+
+# ============================================================================
+# Backup and Temporary Files
+# ============================================================================
+
+# Backup files
+*.backup
+*.bak
+*~
+*.orig
+*.rej
+
+# Temporary files
+*.tmp
+*.temp
+/temp/
+/tmp/
+/.playwright-browsers/
+/.claude/
